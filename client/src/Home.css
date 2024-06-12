@@ -1,0 +1,64 @@
+.parallax, .parallax1{
+    background-image: url('D:\Excellence\Flop Yatra\client\public\images\parallax.jpg');
+    height:max-content;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.glassmorphism{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 8px );
+-webkit-backdrop-filter: blur( 8px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-top:130px;
+font-size: clamp( 1rem + 1vw, 1rem);
+
+
+}
+.story-section0{
+    height: 40.125rem;
+    width: 100%;
+    background: url("D:\Excellence\Flop Yatra\client\public\images\image2.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+}
+.story-section1{
+    height: 40.125rem;
+    width: 100%;
+    background: url("D:\Excellence\Flop Yatra\client\public\images\image3.jpg") no-repeat center;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+}
+.story-section2{
+    height: 30.125rem;
+    width: 100%;
+    background: url("D:\Excellence\Flop Yatra\client\public\images\image4.jpg") no-repeat center;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+}
+.curved{
+    width: 30vw;
+    height:30vh;
+    overflow:hiddden;
+    background: url("D:\Excellence\Flop Yatra\client\public\images\image4.jpg") no-repeat center;
+    text-align :center;
+}
+.curved h1{
+    font-size : 6rem;
+    margin-top:0
+}
+.curved p{
+    font-size : 6rem;
+    margin: 0 5rem 0 5rem
+}
+.curved svg {
+    display:block
+}

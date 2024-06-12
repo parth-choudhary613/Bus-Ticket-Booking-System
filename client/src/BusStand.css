@@ -1,0 +1,8 @@
+.parrallax, .parrallax1{
+    background-image: url('D:\Excellence\Flop Yatra\client\public\images\image13.jpg');
+    height:max-content;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}

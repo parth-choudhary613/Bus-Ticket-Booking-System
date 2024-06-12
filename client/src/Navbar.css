@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    @import url("https://fonts.googleapis.com/css2?family=Angkor&display=swap")
+    @import
+    url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+.textColor {
+    color: #ffa586;
+}
+
+.navbarBgDark {
+    background: #ffa586;
+}
+
+.navbar-nav .nav-link.active {
+    color:#541a2e ;
+}
+
+.nav-link:hover {
+    color: #b51a2b;
+}
+
+.nav-link {
+    color: #541a2e;
+}
+
+.getBtn {
+    color:  #541a2e;
+}
+
+.sideLine {
+    border-right: 1px solid #030F27;
+}
+
+.iconHeight {
+    height: 30px;
+    width: 30px;
+    color: black;
+}
+
+
+@media screen and (min-width: 992px) {
+    .sideLine {
+        border-right: none;
+    }
+
+    .iconHeight {
+        height: 46px;
+        width: 46px;
+    }
+}
